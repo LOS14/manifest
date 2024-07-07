@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-    <remote name="lmodroid"
-        fetch="https://git.libremobileos.com"
-        revision="thirteen"
-        review="gerrit.libremobileos.com" />
+    <remote name="lmodroid" fetch="ssh://git@github.com" revision="thirteen" />
 
     <!-- Bootable -->
     <project path="bootable/recovery" name="LMODroid/platform_bootable_recovery" remote="lmodroid" />
