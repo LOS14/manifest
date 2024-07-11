@@ -15,4 +15,9 @@
   <project name="LineageOS/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="lineage-20" />
   <project name="TheMuppets/proprietary_vendor_google_walleye" path="vendor/google/walleye" remote="github" revision="lineage-20" clone-depth="1" />
   <project name="LineageOS/android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="github" revision="lineage-20.0" />
+   <!-- zuk z2 -->
+  <project name="LOS14/android_device_zuk_z2_plus" path="device/zuk/z2_plus" remote="github" revision="thirteen" />
+  <project name="LOS14/android_device_zuk_msm8996-common" path="device/zuk/msm8996-common" remote="github" revision="thirteen" />
+  <project name="LineageOS/android_kernel_zuk_msm8996" path="kernel/zuk/msm8996" remote="github" revision="lineage-20" />
+  <project name="LOS14/proprietary_vendor_zuk" path="vendor/zuk" remote="github" revision="lineage-20" clone-depth="1" />
 </manifest>
