@@ -15,3 +15,8 @@ Then to sync up:
 ```
 repo sync -c -j6 --force-sync --no-clone-bundle --no-tags
 ```
+#### 配置gitconfig
+```
+git config --global url."git@github.com:".insteadof "git://github.com/"
+git config --global url."git@gitlab.com:".insteadof "git://gitlab.com/"
+```
