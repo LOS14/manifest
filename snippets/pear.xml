@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="LOS14/android_vendor_godlib" path="vendor/godlib" remote="github" revision="thirteen" />
-  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="tau" />
+  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="tau" clone-depth="1" />
   <!--for oneplus 8 -->
   <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-20" />
   <project name="LOS14/android_device_oneplus_instantnoodle" path="device/oneplus/instantnoodle" remote="github" revision="thirteen" />
